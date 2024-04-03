@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/index.css">
+
+    <title>Calculadora de idade</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="numbers-area">
+                <div class="data-numbers">
+                    <label>Dia</label>
+                    <input type="text" id="day" name="txtday" placeholder="DD">
+                    <div class="error"></div>
+                </div>
+
+                <div class="data-numbers">
+                    <label>Mês</label>
+                    <input type="text" id="month" name="txtdamonth" placeholder="MM">
+                    <div class="error"></div>
+                </div>
+
+                <div class="data-numbers">
+                    <label>Ano</label>
+                    <input type="text" id="year" name="txtyear" placeholder="AAAA">
+                    <div class="error"></div>
+                </div>
+            </div>
+
+            <div class="line-button">
+                <div class="line"></div>
+                <button id="button-result">
+                    <img src="./src/img/icon-arrow.svg" alt="arrow">
+                </button>
+                <div class="second-line"></div>
+            </div>
+
+            <div class="result-area">
+                <div class="data-results">
+                    <span>--</span>Anos
+                </div>
+
+                <div class="data-results">
+                    <span>--</span>Meses
+                </div>
+
+                <div class="data-results">
+                    <span>--</span>Dias
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/scripts/script.js"></script>
+</body>
+</html>
